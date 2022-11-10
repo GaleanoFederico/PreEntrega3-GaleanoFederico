@@ -1,0 +1,30 @@
+.bt2{
+    border-radius: 20px;
+    display:inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(128, 128, 128);
+    padding: 0.5rem 3rem;
+    margin-top: 1rem;
+    transition: background-color, 0.3s;
+    cursor: pointer;
+
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+}
+.bt2:hover{
+    background-color: rgb(78, 75, 75);
+}
+
+.botones-formulario{
+    display: flex;
+    gap: 1rem;
+    transition: scale, 0.3s;
+}
+
+.botones-formulario :hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}

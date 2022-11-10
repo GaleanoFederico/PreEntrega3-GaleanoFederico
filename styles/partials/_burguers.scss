@@ -1,0 +1,25 @@
+
+.burguer {
+    display: flex;
+    flex-direction: column;
+
+   img{
+        max-width: 100%;
+        margin-bottom: 2rem;
+        transition: rotate, scale, 0.1s;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+.burguer img:hover{
+    transform: rotate(10deg) scale(1.1);
+}
+
+.contenedor-burguer{
+    @extend %grid; 
+}
+

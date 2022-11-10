@@ -1,0 +1,115 @@
+@media (min-width: 768px) {
+    .nav-header{
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+}
+
+@media (min-width:768px) {
+    .nav-header a {
+        width: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .titulo-nombre{
+        font-size: 3rem;
+    }
+}
+
+@media (min-width:768px) {
+    .title {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width:768px) {
+    .menu-footer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:768px) {
+    .enlaces{
+        grid-row: unset;
+    }
+}
+
+@media (min-width:768px) {
+    .div-footer{
+     justify-content: center;
+ 
+    } 
+ }
+
+ @media (min-width:768px) {
+    .div-footer p{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width:768px) {
+    .copyright {
+        margin-top: 1rem;
+        padding: 2rem;
+    }
+}
+
+@media (min-width:768px) {
+    .copyright p {
+        font-size: 1.2rem;
+
+    }
+}
+
+@media (min-width:768px) {
+    .contenedor-burguer{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (min-width:768px) {
+    .formulario{
+        max-width: 40rem;
+    }
+}
+
+@media (min-width:992px) {
+    .formulario{
+        max-width: 50rem;
+    }
+}
+
+@media (min-width:768px) {
+    .campo{
+        flex-direction: row;
+    }
+}
+
+@media (min-width:768px) {
+    .campo input{
+        flex: 12;
+    }
+}
+
+@media (min-width:992px) {
+    .campo input{
+        flex: 16;
+    }
+}
+
+@media (min-width:768px) {
+    .menu-ubicacion p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width:768px) {
+    .ubicacion-imagen{
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+

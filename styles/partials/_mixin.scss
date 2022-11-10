@@ -1,0 +1,10 @@
+@mixin btnColor($border,$bg,$padding,$radius){
+    border: $border;
+    background-color: $bg;
+    padding: $padding;
+    border-radius: $radius;
+}
+
+.boton{
+    @include btnColor(none, #a7a78d,0.5rem ,0.5rem);
+}
